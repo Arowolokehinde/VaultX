@@ -58,3 +58,14 @@
 (define-private (is-owner)
   (is-eq tx-sender CONTRACT-OWNER)
 )
+
+;; Check if vault is locked
+(define-private (is-vault-locked (user principal))
+  (let ((vault (unwrap! (map-get? vaults user) false)))
+    (< stacks-block-height (get lock-until vault))
+  )
+)
+
+;; ============================================
+;; Read-Only Functions
+;; ============================================
