@@ -12,3 +12,6 @@
 (define-constant ERR-VAULT-LOCKED (err u103))
 (define-constant ERR-NO-VAULT (err u104))
 (define-constant ERR-TRANSFER-FAILED (err u105))
+
+;; Contract owner
+(define-constant CONTRACT-OWNER tx-sender)
