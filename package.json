@@ -1,0 +1,21 @@
+{
+  "name": "vaultx",
+  "version": "1.0.0",
+  "description": "A decentralized vault application on Stacks blockchain",
+  "private": true,
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "test:contracts": "clarinet test",
+    "check:contracts": "clarinet check"
+  },
+  "keywords": [
+    "stacks",
+    "blockchain",
+    "vault",
+    "clarity",
+    "defi"
+  ],
+  "author": "",
+  "license": "MIT"
+}
