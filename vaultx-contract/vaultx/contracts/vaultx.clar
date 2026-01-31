@@ -49,3 +49,12 @@
     total-withdrawn: uint
   }
 )
+
+;; ============================================
+;; Private Functions
+;; ============================================
+
+;; Check if caller is contract owner
+(define-private (is-owner)
+  (is-eq tx-sender CONTRACT-OWNER)
+)
