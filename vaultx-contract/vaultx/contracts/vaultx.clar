@@ -28,3 +28,11 @@
 
 ;; Total number of vaults created
 (define-data-var vault-count uint u0)
+
+
+;; Emergency pause state
+(define-data-var paused bool false)
+
+;; ============================================
+;; Data Maps
+;; ============================================
