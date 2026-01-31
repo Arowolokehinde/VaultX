@@ -69,3 +69,7 @@
 ;; ============================================
 ;; Read-Only Functions
 ;; ============================================
+;; Get vault details for a user
+(define-read-only (get-vault (user principal))
+  (map-get? vaults user)
+)
