@@ -36,3 +36,16 @@
 ;; ============================================
 ;; Data Maps
 ;; ============================================
+
+;; User vault data
+(define-map vaults
+  principal
+  {
+    balance: uint,
+    lock-until: uint,
+    created-at: uint,
+    last-deposit: uint,
+    total-deposited: uint,
+    total-withdrawn: uint
+  }
+)
