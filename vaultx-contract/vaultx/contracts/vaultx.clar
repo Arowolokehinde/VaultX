@@ -18,3 +18,10 @@
 
 ;; Minimum deposit amount (1 STX = 1,000,000 microSTX)
 (define-constant MIN-DEPOSIT u1000000)
+
+;; ============================================
+;; Data Variables
+;; ============================================
+
+;; Total STX locked in all vaults
+(define-data-var total-locked uint u0)
