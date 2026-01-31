@@ -25,3 +25,6 @@
 
 ;; Total STX locked in all vaults
 (define-data-var total-locked uint u0)
+
+;; Total number of vaults created
+(define-data-var vault-count uint u0)
