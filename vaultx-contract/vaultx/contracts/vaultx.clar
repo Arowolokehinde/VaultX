@@ -15,3 +15,6 @@
 
 ;; Contract owner
 (define-constant CONTRACT-OWNER tx-sender)
+
+;; Minimum deposit amount (1 STX = 1,000,000 microSTX)
+(define-constant MIN-DEPOSIT u1000000)
